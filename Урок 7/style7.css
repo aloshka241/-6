@@ -1,0 +1,36 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+}
+.conteiner{
+    width:  100%;
+    max-width: 1250px;
+    padding: 0 15px;
+}
+.header-inner{
+    width: 100%;
+    height: 150px;
+ background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-inner>h1, .footer-inner{
+    color: white;
+}
+.main-inner{
+    width: 100%;
+height: 700px;
+    display: flex;
+}
+.main-inner-left{
+          width: 30%;
+          height: 100%;
+          background-color: tomato;
+          display: flex;
+
+}
