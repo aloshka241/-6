@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aquamarine;
+}
+
+.wrapper{
+    width: 100%;
+    overflow: hidden;
+}
+.content{
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 50px 15px;
+}
+ul li{
+    list-style-type: none;
+    padding: 10px;
+}
+ul li:hover{
+    font-size: 55px;
+}
+.font_items{
+    width: 50%;
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 25px;
+    color: white;
+    margin: 10px;
+    transition: width 2s;
+}
+.font_items:hover{
+ width: 100%;
+}
