@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header{
+width: 100%;
+height: 100vh;
+background: -webkit-linear-gradient(50deg, rgb(124, 118, 118), rgb(73, 71, 71)),url(/Урок\ 9/)
+}
+.header-logo {
+    width: 95px;
+    padding: 0px;
+    font-size: 24px;
+    line-height: 36px;
+    color: #f6f1f1;
+    font-weight: 700;
+    font-family: "Montserrat";
+        width: 100%;
+        height: 8vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+.header-inner{
+width: 100%;}
+.header-menu{
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    justify-content: left;
+    display: flex;
+    flex-direction: column;
+}
+.header-menu > h1{
+    margin: 40px;
+    padding: 95px;
+    width: 601px;
+height: 90px;
+font-size: 48px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
+.header-menu > p{
+    width: 601px;
+height: 90px;
+font-size: 48px;
+line-height: 24px;
+color: #ffffff;
+font-weight: 400;
+font-family: "Montserrat";
+text-align: center;
+}
