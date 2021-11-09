@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(/Урок\ 12/img/vladstudio_result) center center no-repet;
+    background-image: url(/Урок\ 12/img/vladstudio_result);
 }
 .circle {
     display: flex;
