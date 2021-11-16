@@ -1,0 +1,14 @@
+body img{width: 150px;
+    height: 150px;}
+    table{ width: 100%;
+    height: 70vh;
+    border-collapse: collapse;
+    text-align: center;
+    }
+    th,td{
+        font-family: 'Yaldevi', sans-serif;
+        font-size: 30px;
+        color: rgb(7, 14, 112);
+        border: 1px solid black;
+        background:linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    }
