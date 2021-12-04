@@ -1,0 +1,15 @@
+.grid{
+font-size: 30px;
+position: relative;
+margin: 0px 0px 40px 0px;
+}
+.content{
+    padding: 30px 3%;
+}
+.grid_body{
+display: grid;
+}
+.grid_item {
+    text-align: center;
+    border: 1px dashed black;
+}
