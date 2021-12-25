@@ -1,105 +1,107 @@
-*{ 
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    } 
-     
-    body{ 
-    width: 1440px; 
-    font-size: 15px; 
-    line-height: 19px; 
-    margin: 0 auto; 
-    } 
-    .conrainer{ 
-        width: 1240px; 
-        margin: 0 auto; 
-    } 
-    ul li{ 
-        list-style-type: none; 
-        margin: 20px; 
-    } 
-    ul li  a{ 
-        text-decoration: none; 
-    } 
-    .menu_list{ 
-         
-        display: flex; 
-        justify-content: space-around; 
-        align-items: center; 
-    } 
-    .header__menu{ 
-        display: flex; 
-        justify-content: space-between; 
-    } 
-    .img_logo{ 
-        width: 131px; 
-        height: 72px; 
-    } 
-    .main__header{ 
-        width: 100%; 
-        height: 490px; 
-        background-size: cover; 
-        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/maxresdefault\ \(1\)\ 2.png);  
-    } 
-    .header__menu__list{ 
-        width: 100%; 
-    } 
-    .main__header_h2{ 
-        font-family: 'Open Sans', sans-serif; 
-    font-style: normal; 
-    font-weight: 600; 
-    font-size: 24px; 
-    line-height: 32px; 
-    color: #FFFFFF; 
-     
-    } 
-    .main__header_h1{ 
-        font-family: Montserrat; 
-    font-style: normal; 
-    font-weight: 500; 
-    font-size: 45px; 
-    line-height: 55px;  
-    text-transform: uppercase; 
-    color: #FFFFFF; 
-    } 
-    .main__header_btn{ 
-        font-family: Montserrat; 
-    font-style: normal; 
-    font-weight: bold; 
-    font-size: 16px; 
-    line-height: 20px; 
-    text-decoration: none; 
-    text-align: center;  
-    color: #FFFFFF; 
-    padding: 18px 85px; 
-    background: rgba(109, 98, 98, 0.2) ; 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     }
-    .main__intro__inner__left{
-
+    
+    body{
+    width: 1440px;
+    font-size: 15px;
+    line-height: 19px;
+    margin: 0 auto;
     }
-    .main__intro__inner__right_link{
-        font-family: Open Sans;
-        font-style: normal;
-        font-weight: 600;
-        font-size: 18px;
-        line-height: 66px;
-        color: #3D3D3D;
+    .conrainer{
+        width: 1240px;
+        margin: 0 auto;
+    }
+    ul li{
+        list-style-type: none;
+        margin: 20px;
+    }
+    ul li a{
         text-decoration: none;
     }
-
-    .main__intro__inner__left {
+    .menu_list{
+        
         display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        width: 190%;
+        justify-content: space-around;
+        align-items: center;
     }
-    .main__intro__inner__right {
+    .header__menu{
         display: flex;
-        flex-direction: column;
-        flex-basis: 100%;
-        flex: 1;
-        height: 100%;
+        justify-content: space-between;
     }
-    .main__intro__inner__left + .main__intro__inner__right{
-        margin-left: 70%;
+    .img_logo{
+        width: 131px;
+        height: 72px;
     }
+    .main__header{
+        width: 100%;
+        height: 490px;
+        background-size: cover;
+        background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(/maxresdefault\ \(1\)\ 2.png);
+    }
+    .header__menu__list{
+        width: 100%;
+    }
+    .main__header_h2{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #FFFFFF;
+    }
+    .main__header_h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    }
+    .main__header_btn{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+    padding: 18px 85px;
+    background: rgb(255, 255, 255, 0.1);
+    }
+    .main__intro__inner__left{
+        width: 182px;
+        height: 20px;
+    }
+    .main__intro__inner{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .main__intro__inner__left_btn{
+        position: absolute;
+        width: 270px;
+        height: 50px;
+        left: 198px;
+        top: 825px;
+        
+        background: #BDBDBD;
+        border-radius: 2px;
+        position: absolute;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+text-decoration: none;
+color: #ffffff;
+padding: 15px 44px;}
+a:hover{
+    text-decoration: none;
+}
+    
